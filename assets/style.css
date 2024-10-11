@@ -132,6 +132,26 @@ li:hover {
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 }
+/** code pour les filters*/
+.div-container{
+	min-width:550px ;
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 35px auto;
+}
+.div-container > * {
+	padding: 10px 20px;
+	border:1px solid #1D6154;
+	border-radius: 25px;
+	font-family: Syne;
+	color: #1D6154;
+	cursor: pointer;
+}
+.div-container > *:hover{
+	background-color: #1D6154;
+	color: white;
+}
 
 .gallery img {
 	width: 100%;
